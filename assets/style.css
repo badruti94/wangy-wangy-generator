@@ -1,0 +1,65 @@
+*{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    text-align: center;
+    font-size: 1.5em;
+    margin-bottom: 50px;
+    font-weight: bold;
+    background: orange;
+    padding: 0.5em;
+}
+
+main{
+    margin-left: 2em;
+}
+
+#form{
+    margin-bottom: 50px;
+}
+
+td{
+    margin-bottom: 10px;
+    /* border: 2px solid red; */
+    padding: 5px 0;
+}
+input{
+    color: orange;
+}
+
+button{
+    color: orangered;
+    margin-top: 1em;
+    font-size: large;
+    border-radius: 9px;
+    padding: 5px;
+}
+
+textarea{
+    max-width: 15em;
+    max-height: 10em;
+    border: 2px solid red;
+    border-radius: 10px;
+    padding: 10px;
+    overflow: scroll;
+    margin-right: 0.5em;
+}
+
+#copy-alert{
+    color: green;
+    font-size: small;
+}
+
+footer{
+    padding: 5px;
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    height: 20px;
+    bottom: 0;
+    background-color: rgb(31, 193, 214);
+
+}
